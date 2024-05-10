@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customerpage"
+    tools:context=".Caregiver">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/black_border"
+        android:focusable="false"
+        app:closeIcon="@drawable/ic_baseline_clear_24"
+        app:iconifiedByDefault="@null"
+        android:backgroundTint="#135385"
+        app:queryHint="Search..."
+        app:searchIcon="@drawable/ic_baseline_search_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/searchPet"/>
+
+    <Button
+        android:id="@+id/logoutButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#0B5070"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

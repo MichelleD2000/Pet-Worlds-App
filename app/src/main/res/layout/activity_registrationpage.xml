@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Registrationpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:text="REGISTER"
+            android:layout_marginTop="100dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:paddingStart="10dp"
+            android:hint="Full Name"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"/>
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:paddingStart="10dp"
+            android:hint="Email"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"/>
+        <EditText
+            android:id="@+id/edtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:hint="Address"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"/>
+        <EditText
+            android:id="@+id/edtcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:hint="Contact Number"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"/>
+        <EditText
+            android:id="@+id/edtuserpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:paddingStart="10dp"
+            android:background="@color/black"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/black"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/loginRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Already Have An Account ? LOG IN Here"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginStart="170dp"/>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

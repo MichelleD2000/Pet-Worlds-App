@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".Details"
+    android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detailuploadTopic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="14sp"
+                    android:layout_marginBottom="12dp"
+                    android:text="Purpose"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:id="@+id/detailuploadImage"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/baseline_upload_24"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/detailPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:text="Price"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/detailAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:text="Age"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/detailBreed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:text="Breed"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/detailGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:text="Gender"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/detailColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:text="Color"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/detailDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:text="Description"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:text="BOOK NOW"
+                    android:textSize="20dp"
+                    android:layout_marginStart="55dp"
+                    android:id="@+id/booking"
+                    android:layout_marginBottom="30dp"/>
+
+
+            </LinearLayout>
+
+
+
+</ScrollView>

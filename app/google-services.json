@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "974128103128",
+    "firebase_url": "https://pet-worlds-2846c-default-rtdb.firebaseio.com",
+    "project_id": "pet-worlds-2846c",
+    "storage_bucket": "pet-worlds-2846c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974128103128:android:db46232653d0dcb7dde1ad",
+        "android_client_info": {
+          "package_name": "com.example.petworlds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2-oN8tlqrsmRhTiNI83upfiP4dZpQXd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

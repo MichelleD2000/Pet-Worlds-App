@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recCard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recuploadImage"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_upload_24" />
+
+        <TextView
+            android:id="@+id/recuploadTopic"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recuploadImage"
+            android:text="Titile"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/recPrice"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recuploadTopic"
+            android:layout_marginTop="-32dp"
+            android:layout_toEndOf="@+id/recuploadTopic"
+            android:text="price"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recAge"
+            android:layout_width="147dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/recuploadTopic"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="58dp"
+            android:layout_toEndOf="@+id/recuploadImage"
+            android:maxLines="0"
+            android:text="Age"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recBreed"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recAge"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recuploadImage"
+            android:maxLines="0"
+            android:text="Breed"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recGender"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recBreed"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recuploadImage"
+            android:maxLines="0"
+            android:text="Gender"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recColor"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recGender"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recuploadImage"
+            android:maxLines="0"
+            android:text="Color"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recDes"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recColor"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recuploadImage"
+            android:maxLines="0"
+            android:text="Owner Details"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
